@@ -1,0 +1,146 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: red;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.news-hd .more {
+    float: right;
+}
+
+.news-hd .more::after {
+    content: '\e691';
+    font-family: "iconfont";
+
+}
+
+.news-bd {
+    padding: 5px 15px 0;
+}
+
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    position: relative;
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li:nth-child(1) i {
+    background: url(../images/icons.png) no-repeat -18px -15px;
+}
+
+.lifeservice ul li:nth-child(2) i {
+    background: url(../images/icons.png) no-repeat -79px -16px;
+}
+
+.lifeservice ul li:nth-child(3) i {
+    background: url(../images/icons.png) no-repeat -141px -15px;
+}
+
+.lifeservice ul li:nth-child(4) i {
+    background: url(../images/icons.png) no-repeat -206px -15px;
+}
+
+.lifeservice ul li:nth-child(5) i {
+    background: url(../images/icons.png) no-repeat -17px -87px;
+}
+
+.lifeservice ul li:nth-child(6) i {
+    background: url(../images/icons.png) no-repeat -80px -87px;
+}
+
+.lifeservice ul li:nth-child(7) i {
+    background: url(../images/icons.png) no-repeat -143px -87px;
+}
+
+.lifeservice ul li:nth-child(8) i {
+    background: url(../images/icons.png) no-repeat -209px -87px;
+}
+
+.lifeservice ul li:nth-child(9) i {
+    background: url(../images/icons.png) no-repeat -17px -159px;
+}
+
+.lifeservice ul li:nth-child(10) i {
+    background: url(../images/icons.png) no-repeat -79px -159px;
+}
+
+.lifeservice ul li:nth-child(11) i {
+    background: url(../images/icons.png) no-repeat -142px -155px;
+}
+
+.lifeservice ul li:nth-child(12) i {
+    background: url(../images/icons.png) no-repeat -209px -159px;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    margin-top: 12px;
+    width: 24px;
+    height: 28px;
+}
+
+.lifeservice ul li img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.bargain {
+    margin-top: 5px;
+}
+
+.ing {
+    text-align: center;
+    font-family: kaiti;
+}
