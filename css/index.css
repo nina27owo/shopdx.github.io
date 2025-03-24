@@ -141,11 +141,6 @@
     margin-top: 5px;
 }
 
-.ing {
-    text-align: center;
-    font-family: kaiti;
-}
-
 .recom {
     height: 163px;
     background-color: #ebebeb;
@@ -374,7 +369,7 @@
 .adjust2 {
     margin-bottom: 80px;
     text-align: center;
-    color: #ccc;
+    color: #999;
 }
 
 .col_219 {
@@ -415,4 +410,13 @@
     position: absolute;
     right: 0;
     bottom: 0;
+}
+
+.col_329 .text3 h2 {
+    margin-top: 30px;
+    color: #4c852a;
+}
+
+.col_329 .text3 h4 {
+    color: #4c852a;
 }

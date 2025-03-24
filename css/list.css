@@ -1,0 +1,100 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\e694';
+    font-family: iconfont;
+}
+
+.sk_bd ul li {
+    margin: 10px 25px;
+    float: left;
+    position: relative;
+    width: 230px;
+    height: 320px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:hover {
+    border-top: 1px solid #BF2617;
+    border-left: 1px solid #BF2617;
+    border-right: 1px solid #BF2617;
+}
+
+.sk_bd ul li h2,
+.sk_bd ul li p {
+    margin-left: 10px;
+}
+
+.sk_bd ul li img {
+    display: block;
+    margin: 35px auto;
+}
+
+.sk_bd ul li .tiao {
+    float: left;
+    display: block;
+    border-radius: 7px;
+    border: 2px solid #FC3B2A;
+    width: 80px;
+    height: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.sk_bd ul li .tiao .red {
+    height: 100%;
+    width: 87%;
+    background-color: #FC3B2A;
+}
+
+.sk_bd ul li h5 {
+    float: left;
+    margin: 10px 10px;
+    color: #ccc;
+}
+
+.sk_bd ul li .qianggou {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width: 230px;
+    height: 40px;
+    background-color: #BE2718;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
